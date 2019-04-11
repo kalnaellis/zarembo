@@ -1,4 +1,4 @@
-// šeit man izdevās izveidot nelielu digitālo galeriju ar saviem darbiem
+// šeit man izdevās izveidot
 if ( WEBGL.isWebGLAvailable() === false ) {
 
 	document.body.appendChild( WEBGL.getWebGLErrorMessage() );
