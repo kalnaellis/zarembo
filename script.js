@@ -20,6 +20,8 @@ document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 var audio = new Audio('audiofile.mp3');
 audio.play();
 
+document.getElementById('audiofile.mp3').play();
+
 init();
 animate();
 
