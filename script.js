@@ -104,7 +104,7 @@ function onDocumentMouseMove( event ) {
 var audio = new Audio('audiofile.mp3');
 audio.play();
 
-document.getElementById('audiofile.mp3').play();
+
 
 function animate() {
 
