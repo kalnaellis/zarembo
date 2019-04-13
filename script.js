@@ -17,6 +17,9 @@ var windowHalfY = window.innerHeight / 2;
 
 document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
+var audio = new Audio('audiofile.mp3');
+audio.play();
+
 init();
 animate();
 
